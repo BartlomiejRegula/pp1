@@ -1,3 +1,3 @@
-cena=float(input('amunt:\n'))
+cena=float(input('amount:\n'))
 vat=cena*0.23
-print(round(vat,2))
+print('vat:',(round(vat,2)))
