@@ -1,13 +1,7 @@
-jeden_zł=int(1)
-dwa_zł=int(2)
-piec_zł=int(5)
-amount=int(input('enter the amount:'))
-while True:
-    amount%piec_zł
-    print(amount%piec_zł)
-    amount%dwa_zł
-    amount%jeden_zł
-
-    break
-
-print(amount%piec_zł)
+ilosc=input('podaj liczbe monet')
+am=int(ilosc)
+a=am//5
+am%=5
+b=am//2
+am%=2
+print(f'ilosc monet:{ilosc}\n 5zl - {a}\n 2zł - {b}\n 1zł - {am}')
