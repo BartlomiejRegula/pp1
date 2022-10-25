@@ -1,3 +1,4 @@
 import m 
 
-print(m.read_number())
+
+print(f'suma tych liczb to {m.read_number()+m.read_number()}')
