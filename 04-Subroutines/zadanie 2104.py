@@ -2,7 +2,7 @@
 # Otherwise returns false. Use the conditional operator. 
 def numerek():
     x=1
-    y=2
+    y=-3
     if x>y:
         print( True)
     elif y>x:
