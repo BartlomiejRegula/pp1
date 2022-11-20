@@ -5,7 +5,7 @@ a=[
 
 print(a)
 print(len(a),len(a[1]),len(a[0]))
-print(a[0][1])
+print(a[0][1],'a')
 print(a[1][2])
 for i in a[1]:
     print(i,end=' ')
