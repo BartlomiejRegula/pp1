@@ -21,4 +21,3 @@ print(film2)
 Film.cinema = "Cinema City "
 print(film1)
 print(film2)
-
