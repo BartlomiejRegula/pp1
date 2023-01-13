@@ -1,82 +1,81 @@
 import turtle
 
-# Ustawienia początkowe
-turtle.speed(5)
+# Set the turtle's speed to the maximum value
+turtle.speed(0)
+
+# Set the turtle's pen size to a thicker width
+turtle.pensize(5)
+
+# Move the turtle to the starting position for the head
 turtle.penup()
-turtle.setpos(-100, -50)
+turtle.goto(0, 200)
 turtle.pendown()
 
-# Narysuj tułów
-turtle.color("black", "orange")
-turtle.begin_fill()
-turtle.circle(50, 180)
-turtle.end_fill()
+# Draw the head
+turtle.circle(50)
 
-# Narysuj głowę
-turtle.color("black", "white")
-turtle.begin_fill()
-turtle.circle(40)
-turtle.end_fill()
-
-# Narysuj oczy
-turtle.setpos(-10, 60)
-turtle.color("black")
-turtle.dot()
-turtle.setpos(10, 60)
-turtle.dot()
-
-# Narysuj nos
-turtle.setpos(0, 40)
-turtle.color("black")
-turtle.dot(10)
-
-# Narysuj uszy
+# Move the turtle to the starting position for the body
 turtle.penup()
-turtle.setpos(-50, 90)
+turtle.goto(0, 50)
 turtle.pendown()
-turtle.setpos(-80, 60)
+
+# Draw the body
+turtle.forward(100)
+
+# Move the turtle to the starting position for the left arm
 turtle.penup()
-turtle.setpos(50, 90)
+turtle.goto(-50, 100)
 turtle.pendown()
-turtle.setpos(80, 60)
 
-# Narysuj ogon
+# Draw the left arm
+turtle.forward(50)
+
+# Move the turtle to the starting position for the right arm
 turtle.penup()
-turtle.setpos(0, -50)
+turtle.goto(50, 100)
 turtle.pendown()
-turtle.setpos(0, -80)
+
+# Draw the right arm
+turtle.forward(50)
+
+# Move the turtle to the starting position for the left leg
 turtle.penup()
-turtle.setpos(-20, -60)
+turtle.goto(-25, 0)
 turtle.pendown()
-turtle.setpos(-40, -80)
+
+# Draw the left leg
+turtle.forward(50)
+
+# Move the turtle to the starting position for the right leg
 turtle.penup()
-turtle.setpos(20, -60)
+turtle.goto(25, 0)
 turtle.pendown()
-turtle.setpos(40, -80)
 
-turtle.hideturtle()
-turtle.done()
+# Draw the right leg
+turtle.forward(50)
+
+# Keep the window open until it is closed
+turtle.exitonclick()
+
+# Werka Grabowiecka, piękna dziewczyno
+# Z uśmiechem na twarzy, radością w sercu
+# Bartek i Zosia chcą Cię ucieszyć
+# I przesyłają wiersz, mały prezent
+
+# Jesteś dla nas jak promień słoneczny
+# Rozświetlasz każdy dzień swoją obecnością
+# Zawsze gotowa do zabawy i śmiechu
+# Nigdy nie brak Ci pomysłów, jesteś wspaniała
+
+# Dziękujemy Ci Werka za każdy dzień
+# Spędzony razem, pełen radości i uśmiechu
+# Jesteś dla nas wsparciem i przyjacielem
+# Niech ten wiersz będzie małym podziękowaniem
+
+# Wiesz co jeszcze kocha Werka Grabowiecka?
+# Konie! Te piękne zwierzęta zawsze ją zachwycają
+# Lubi jeździć, podziwiać ich siłę i grację
+# I czuć wiatr we włosach na ich grzbiecie
 
 
-Werka Grabowiecka, piękna dziewczyno
-Z uśmiechem na twarzy, radością w sercu
-Bartek i Zosia chcą Cię ucieszyć
-I przesyłają wiersz, mały prezent
-
-Jesteś dla nas jak promień słoneczny
-Rozświetlasz każdy dzień swoją obecnością
-Zawsze gotowa do zabawy i śmiechu
-Nigdy nie brak Ci pomysłów, jesteś wspaniała
-
-Dziękujemy Ci Werka za każdy dzień
-Spędzony razem, pełen radości i uśmiechu
-Jesteś dla nas wsparciem i przyjacielem
-Niech ten wiersz będzie małym podziękowaniem
-
-Wiesz co jeszcze kocha Werka Grabowiecka?
-Konie! Te piękne zwierzęta zawsze ją zachwycają
-Lubi jeździć, podziwiać ich siłę i grację
-I czuć wiatr we włosach na ich grzbiecie
-
-
-Z Bartkiem i Zosią, zawsze Twoimi przyjaciółmi
+# Z Bartkiem i Zosią, zawsze Twoimi przyjaciółmi

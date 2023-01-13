@@ -1,0 +1,45 @@
+test_p1 (__main__.Test) ... FAIL
+test_p2 (__main__.Test) ... ok
+test_p3 (__main__.Test) ... FAIL
+test_p4 (__main__.Test) ... ok
+test_p5 (__main__.Test) ... ok
+test_p6 (__main__.Test) ... ok
+test_p7 (__main__.Test) ... FAIL
+test_p8 (__main__.Test) ... FAIL
+
+======================================================================
+FAIL: test_p1 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Bartek\OneDrive\Desktop\kolokwium pp\adsgfsdag.py", line 14, in test_p1
+    self.assertEqual(p1.f("abba"), 7)
+AssertionError: 8 != 7
+
+======================================================================
+FAIL: test_p3 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Bartek\OneDrive\Desktop\kolokwium pp\adsgfsdag.py", line 30, in test_p3
+    self.assertEqual(p3.f("123F"),False)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_p7 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Bartek\OneDrive\Desktop\kolokwium pp\adsgfsdag.py", line 50, in test_p7
+    self.assertEqual(p7.C.m(1234560),2460)
+AssertionError: '2460' != 2460
+
+======================================================================
+FAIL: test_p8 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Bartek\OneDrive\Desktop\kolokwium pp\adsgfsdag.py", line 58, in test_p8
+    self.assertEqual(self.s1.m2(["Y","Z"]),260)
+AssertionError: 330 != 260
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.020s
+
+FAILED (failures=4)
